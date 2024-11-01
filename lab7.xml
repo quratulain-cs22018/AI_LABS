@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+
+<SEARCH>
+	<GRAPH>
+		<DESCRIPTION>
+			<SHORT>null</SHORT>
+			<DETAILED>null</DETAILED>
+		</DESCRIPTION>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>Node 0</NAME>
+			<INDEX>0</INDEX>
+			<XPOS>8147.7427</XPOS>
+			<YPOS>5040.783</YPOS>
+			<TYPE>GOAL</TYPE>
+			<HEURISTICVALUE>3.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>Node 1</NAME>
+			<INDEX>1</INDEX>
+			<XPOS>8081.094</XPOS>
+			<YPOS>5521.2173</YPOS>
+			<TYPE>START</TYPE>
+			<HEURISTICVALUE>0.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>Node 2</NAME>
+			<INDEX>2</INDEX>
+			<XPOS>8830.906</XPOS>
+			<YPOS>5490.669</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>1.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Edge Definitions -->
+
+		<EDGE>
+			<STARTINDEX>0</STARTINDEX>
+			<ENDINDEX>1</ENDINDEX>
+			<COST>1.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>1</STARTINDEX>
+			<ENDINDEX>0</ENDINDEX>
+			<COST>1.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>2</STARTINDEX>
+			<ENDINDEX>0</ENDINDEX>
+			<COST>2.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>1</STARTINDEX>
+			<ENDINDEX>2</ENDINDEX>
+			<COST>1.0</COST>
+		</EDGE>
+
+		<!-- Heuristic Settings -->
+
+		<HEURISTIC value="MANUAL"></HEURISTIC>
+		<EDGECOSTS value="MANUAL"></EDGECOSTS>
+
+	</GRAPH>
+</SEARCH>
